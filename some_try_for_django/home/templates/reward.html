@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+          <div class="offset-md-3 col-md-6 my-5">
+        <h3 class="" style="text-align: center">Reward Post</h3>
+        <form action="" method="POST">
+            {% csrf_token %}
+            <div class="form-group">
+                <label for="exampleReword">Reward</label>
+                <input type="text" name="text" class="form-control" placeholder="Reward"/>
+            </div>
+            <button type="submit" class="btn btn-success">Submit</button>
+            <div style="margin-bottom: 150px"></div>
+        </form>
+        </div>
+
+</body>
+</html>
